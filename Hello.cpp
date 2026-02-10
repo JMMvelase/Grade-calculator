@@ -26,9 +26,9 @@ int count;
 cout << "How many marks are there \n";
 cin >> count;
 
-for(int i = 0; i < count; i++){
+for(int i = 1; i <= count; i++){
     int marks;
-    cout << "Enter your mark/s \n";
+    cout << "Enter your test mark " << i << "\n";
     cin>> marks;
     if(marks<0||marks>100){
     cout << "Invalid mark. Please enter a mark between 0 and 100.\n";
