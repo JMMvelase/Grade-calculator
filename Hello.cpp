@@ -21,7 +21,7 @@ void myGrade(int avg)
 
 int main()
 {
-int sum;
+int sum =0;
 int count;
 cout << "How many marks are there \n";
 cin >> count;
