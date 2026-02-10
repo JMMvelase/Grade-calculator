@@ -34,12 +34,13 @@ for(int i = 0; i < count; i++){
     cout << "Invalid mark. Please enter a mark between 0 and 100.\n";
     continue;
     }
-    sum+=marks;
+sum+=marks;
 }
 
 int avg = sum/count;
 
 cout << "Your average is: " << avg << "\n"; 
+
 myGrade(avg);
 
 
